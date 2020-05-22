@@ -1,0 +1,38 @@
+#container {
+	top: 30px;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	padding: 0;
+    border: none;
+}
+
+.grid {
+	margin:0;
+    padding:0;
+    height:32px;
+	width:32px;
+	border:none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+
+.wall{
+    background: red;
+    outline:0px !important;
+}
+
+.start{
+    background: yellow;
+    outline:0px !important;
+}
+
+.target{
+    background: black;
+    outline:0px !important;
+}
+
+.path{
+    background: green;
+    outline:0px !important;
+}
